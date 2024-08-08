@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="./assets/logo.jpg">
+    <title>Plant Details </title>
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--header section starts-->
+    <header>
+        <div class="header-1">
+            <div class="share">
+                <span>follow us : </span>
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>   
+            </div>   
+
+            <div class="call">
+                <span>call us : </span>
+                <a href="#">+111-111-111</a>
+            </div>
+        </div>
+
+        <div class="header-2">
+            <a href="#" class="logo"><i class="fa-sharp fa-solid fa-leaf fa-bounce"></i> LOGO </a>
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </div>
+        <div class="header-3">
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="/" class="Home1" id="Home1" style="opacity: 1;">home</a>
+                <a href="#catagory">category</a>
+                <a href="#product">product</a>
+                <a href="#deal">deal</a>
+                <a href="#contact">contact</a>
+            </nav>
+            
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends-->
+        <!-- deal section starts -->
+
+    <section class="deal" id="deal">
+        <h1 class="heading">Explore Plant</h1>
+        <div class="row" id="data_1">
+            
+        </div>
+    </section>
+    <!-- deal section ends -->
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dolor iusto explicabo quidem eos velit, similique ad necessitatibus eaque itaque possimus voluptate temporibus eum natus distinctio? Enim fugiat autem aliquam!</p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Mumbai</a>
+                <a href="#">Pune</a>
+                <a href="#">Nashik</a>
+                <a href="#">Malagoan</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">category</a>
+                <a href="#">product</a>
+                <a href="#">deal</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="credit"> created by <span> Man Of Action </span> | all rights are reserved!</h1>
+    </section>
+    <!-- footer section ends -->
+</body>
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const itemId = urlParams.get('name');
+
+    const data_1 = document.getElementById("data_1");
+    var str=""
+    if (itemId) {
+      // Use AJAX to fetch item details based on the item ID
+      const xhr = new XMLHttpRequest();
+      console.log(itemId)
+      xhr.open('GET', `http://localhost:3000/getOne/?name=${itemId}`, false); // Adjust the URL accordingly
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          const itemDetails = JSON.parse(xhr.responseText);
+          console.log(itemDetails)
+          str = `<div class="image">
+                <img src="${itemDetails.url}" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">${itemDetails.name}</h3>
+                <p>${itemDetails.description}</p>
+            
+                <a href="#" class="btn btn-danger">  Add To Wishlist</a>
+                <a href="#" class="btn btn-danger">  Buy Now</a>
+                    </br>
+
+            <div class="shipdel">
+                <h2 class="title2">What you get</h2>
+                <h2><ul class="list-unstyled">
+                <li>${itemDetails.whatYouGet.pot}
+    ◦ Plant size: 10″ – 16″ tall (including pot)</li>
+                <li>${itemDetails.whatYouGet.plant}
+                </u></h2>
+    <h2 class="title2">Quick facts</h2>
+                <h2><ul class="list-unstyled">
+                
+                <li>Known As: ${itemDetails.quickFacts.knownAs}</li>
+                <li>Growing Difficulty:  ${itemDetails.quickFacts.growingDifficulty}</li>
+                <li>Light:  ${itemDetails.quickFacts.light}</li>
+                <li>Water: ${itemDetails.quickFacts.water}</li>
+                <li>Air Purifying:  ${itemDetails.quickFacts.airPurifying}
+    </li>
+                </u></h2>
+                <h2 class="title1">Shipping & Delivery</h2>
+                <p>Shipping & Delivery
+    We deliver plants only within India.
+    We offer free shipping for all plants and organic fertilizers. For other products the shipping charge is ₹120 per item.
+    Only plants are shipped through express air shipment when available. If the air shipment is not available for the destination pin code the standard shipping is used.<p>
+   
+            </div>
+            </div>`;
+        }
+      };
+      xhr.send();
+      data_1.innerHTML=str
+    } else {
+    //   itemDetailsElement.innerHTML = 'No item selected.';
+    }
+</script>
+</html>

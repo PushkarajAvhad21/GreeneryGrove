@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenery Grove</title>
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #1A5D1A;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        header .logo i {
+            margin-right: 10px;
+        }
+        header nav a {
+            color: white;
+            font-size: 1rem;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #FFD700;
+        }
+        header .search-bar {
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        header .search-bar input {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 20px 0 0 20px;
+            outline: none;
+            width: 250px;
+        }
+        header .search-bar button {
+            background-color: white;
+            border: none;
+            padding: 8px;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+        header .search-bar button i {
+            color: #1A5D1A;
+        }
+        header .profile {
+            display: flex;
+            align-items: center;
+        }
+        header .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .swiper {
+            height: 70vh;
+            width: 100%;
+            margin-bottom: 50px;
+        }
+        .swiper .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            background-position: center;
+        }
+        .swiper .swiper-slide .content {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        .swiper .swiper-slide .content h2 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+        .swiper .swiper-slide .content p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .swiper .swiper-slide .content .btn {
+            background-color: #FFD700;
+            color: #1A5D1A;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+        .swiper .swiper-slide .content .btn:hover {
+            background-color: #FFC107;
+        }
+        .categories, .products {
+            padding: 50px 30px;
+            text-align: center;
+        }
+        .categories h2, .products h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #1A5D1A;
+        }
+        .categories .category-cards, .products .product-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .categories .category-card, .products .product-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .categories .category-card img, .products .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .categories .category-card .content, .products .product-card .content {
+            padding: 15px;
+        }
+        .categories .category-card .content h3, .products .product-card .content h3 {
+            font-size: 1.5rem;
+            color: #1A5D1A;
+            margin-bottom: 10px;
+        }
+        .categories .category-card .content .btn, .products .product-card .content .btn {
+            background-color: #1A5D1A;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            text-decoration: none;
+        }
+        .categories .category-card .content .btn:hover, .products .product-card .content .btn:hover {
+            background-color: #145014;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 30px;
+        }
+        .icons .icon-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 200px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .icons .icon-card:hover {
+            transform: translateY(-5px);
+        }
+        .icons .icon-card i {
+            color: #1A5D1A;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        .icons .icon-card h3 {
+            font-size: 1.2rem;
+            color: #1A5D1A;
+            margin-bottom: 5px;
+        }
+        .icons .icon-card p {
+            color: #777;
+        }
+        footer {
+            background-color: #145014;
+            color: white;
+            padding: 30px 30px;
+            text-align: center;
+        }
+        footer .footer-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        footer .footer-links div {
+            margin-bottom: 20px;
+        }
+        footer .footer-links h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        footer .footer-links p, footer .footer-links a {
+            color: white;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer .footer-links a:hover {
+            color: #FFD700;
+        }
+        footer .footer-credit {
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #FFD700;
+        }
+        .scroll-top {
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            background-color: #1A5D1A;
+            color: white;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .scroll-top:hover {
+            background-color: #145014;
+        }
+
+        .navbar {
+            background-color: #1A5D1A;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+            margin-right: 20px;
+            transition: color 0.3s ease;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #cce5cc !important;
+        }
+        .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+        .navbar-toggler .fas {
+            color: #fff;
+            font-size: 24px;
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+        .profile-icon {
+            color: #fff;
+            font-size: 24px;
+            margin-left: 20px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .profile-icon:hover {
+            color: #cce5cc;
+        }
+
+
+        .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%; /* Adjust the width of caption area */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px; /* Adjust position */
+}
+
+        .carousel-caption h5,
+        .carousel-caption p {
+            color: #fff;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .carousel-indicators li {
+            background-color: #4CAF50;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #4CAF50;
+            border-radius: 50%;
+            padding: 10px;
+        }
+        .carousel-inner img {
+    max-height: 500px; /* Adjust the height as per your needs */
+    object-fit: cover; /* Ensure images cover the div without distortion */
+    width: 100%; /* Maintain full width */
+}
+
+
+.icons {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .icon-card {
+            text-align: center;
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .icon-card i {
+            font-size: 2em;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .icon-card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .icon-card p {
+            color: #777;
+        }
+
+        .icon-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            padding: 40px 20px;
+            margin-top: auto;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .footer-links div {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+        }
+
+        .footer-links h3 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+
+        .footer-links p,
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            line-height: 1.6;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-credit {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1em;
+            color: white;
+        }
+
+        .footer-credit span {
+            font-weight: bold;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .footer-links {
+                flex-direction: column;
+            }
+
+            .footer-links div {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <!-- <header>
+        <a href="#" class="logo"><i class="fa-solid fa-leaf"></i> GreeneryGrove</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#category">Category</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="profile">
+            <a href="" id="profile_id"><img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" id="profile_i" alt="Profile"></a>
+        </div>
+    </header> -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Greenery Grove</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+                <a href="/profile" class="profile-icon"  id="profile_id">
+                    <img style="width: 50px;" src="/index/assets/follower_983887.png" alt="">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <!-- <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background: url('https://cdn.ugaoo.com/media/wysiwyg/home-slider/slider1.jpg') no-repeat;">
+                    <div class="content">
+                        <h2>Green Your Space</h2>
+                        <p>Up to 75% off on all plants</p>
+                        <a href="#" class="btn">Shop Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url('https://cdn.ugaoo.com/media/wysiwyg/home-slider/slider2.jpg') no-repeat;">
+                    <div class="content">
+                        <h2>Brighten Your Home</h2>
+                        <p>Special Offer on Indoor Plants</p>
+                        <a href="#" class="btn">Explore</a>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url('https://cdn.ugaoo.com/media/wysiwyg/home-slider/slider3.jpg') no-repeat;">
+                    <div class="content">
+                        <h2>Garden of Joy</h2>
+                        <p>Find the perfect plant for your garden</p>
+                        <a href="#" class="btn">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section> -->
+
+    <section>
+        <div id="greeneryGroveCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#greeneryGroveCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#greeneryGroveCarousel" data-slide-to="1"></li>
+                <li data-target="#greeneryGroveCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://www.nobroker.in/blog/wp-content/uploads/2021/07/Plastic-Bottle-Flower-Pot.jpg" class="d-block w-100" alt="Beautiful Plants">
+                    <div class="carousel-caption">
+                        <h5>Explore Our Beautiful Plants</h5>
+                        <p>Discover the variety of plants we offer at GreeneryGrove.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.nobroker.in/blog/wp-content/uploads/2021/07/Creative-Flower-Pot-Design.jpg" class="d-block w-100" alt="Fresh and Green">
+                    <div class="carousel-caption">
+                        <h5>Fresh and Green</h5>
+                        <p>Bring nature into your home with our fresh plants.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.nobroker.in/blog/wp-content/uploads/2021/07/Flower-Pot-Design.jpg" class="d-block w-100" alt="Perfect for Any Space">
+                    <div class="carousel-caption">
+                        <h5>Perfect for Any Space</h5>
+                        <p>Find the perfect plant to fit any space in your home or office.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#greeneryGroveCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#greeneryGroveCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Category Section -->
+    <section class="categories" id="category">
+        <h2>Shop by Category</h2>
+        <div class="category-cards">
+            <div class="category-card">
+                <img src="https://m.media-amazon.com/images/I/61+eAljAZgL._AC_UF1000,1000_QL80_.jpg" alt="Bonsai">
+                <div class="content">
+                    <h3>Bonsai</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://www.ugaoo.com/cdn/shop/files/DSC_2422.jpg?v=1710162125&width=1500" alt="Indoor Plants">
+                <div class="content">
+                    <h3>Indoor Plants</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://m.media-amazon.com/images/I/514dMn6Mp5L._AC_UF1000,1000_QL80_.jpg" alt="Garden Plants">
+                <div class="content">
+                    <h3>Garden Plants</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="https://www.ugaoo.com/cdn/shop/files/HumanTouch_7cf3a88d-dba8-4e9d-838a-9d843dd281ed.jpg?v=1690294346&width=1500" alt="Office Plants">
+                <div class="content">
+                    <h3>Office Plants</h3>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="products" id="products">
+        <h2>Featured Products</h2>
+        <div class="product-cards data2">
+            <!-- Product items will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Icons Section -->
+    <section class="icons">
+        <div class="icon-card">
+            <i class="bi bi-truck"></i>
+            <h3>Free Shipping</h3>
+            <p>Free shipping on orders</p>
+        </div>
+        <div class="icon-card">
+            <i class="bi bi-cash"></i>
+            <h3>100% Money Back</h3>
+            <p>You've 30 days to return</p>
+        </div>
+        <div class="icon-card">
+            <i class="bi bi-shield-lock"></i>
+            <h3>Payment Secure</h3>
+            <p>100% secure payment</p>
+        </div>
+        <div class="icon-card">
+            <i class="bi bi-clock-history"></i>
+            <h3>Support 24/7</h3>
+            <p>Contact us anytime</p>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h3>About Us</h3>
+                <p>GreeneryGrove is your go-to destination for all things plants. Explore our collection and find the perfect green companion for your space.</p>
+            </div>
+            <div>
+                <h3>Branch Locations</h3>
+                <a href="#">Mumbai</a>
+                <a href="#">Pune</a>
+                <a href="#">Nashik</a>
+                <a href="#">Malagaon</a>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Category</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            </div>
+        </div>
+        <h1 class="footer-credit">Created by <span>Man Of Action</span> | All rights reserved!</h1>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#home" class="scroll-top fas fa-angle-up"></a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Selecting the element where data will be displayed
+        var data2 = document.querySelector(".data2");
+        var userData = "";
+
+        // Function to fetch all data from the /getall endpoint
+        async function fetch_all_data() {
+            try {
+                // Define the URL for the API endpoint
+                var url = 'https://greenerygrove.onrender.com/getall';
+
+                // Make a GET request using the Fetch API
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                // Check if the response is successful
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                // Parse the JSON data from the response
+                const obj3 = await response.json();
+
+                // Variable to hold the HTML string
+                var str = "";
+                // Reset index
+                var i = 0;
+                console.log(userData)
+                // Iterate over the fetched data
+                obj3.forEach(function (item) {
+                    // Limit to 6 items
+                        str += `<div class="product-card">
+                                    <img src="${item.images[0]}" alt="${item.name}">
+                                    <div class="content">
+                                        <h3>${item.name}</h3>
+                                        <div class="stars">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </div>
+                                        <p>₹${item.price}</p>
+                                        <form action="https://greenerygrove.onrender.com/cart/${userData._id}?plantId=${item._id}&quantity=1" method="post">
+                                            <button class="btn" type="submit">Add to Cart</button>
+                                        </form>
+                                    </div>
+                                </div>`;
+                        
+                    
+                });
+
+                // Update the HTML content of the data2 element
+                data2.innerHTML = str;
+
+            } catch (error) {
+                // Alert the error if something goes wrong
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // Function to fetch user data from the /senduser endpoint
+        async function fetch_user_data() {
+            try {
+                // Define the URL for the API endpoint
+                var url = 'https://greenerygrove.onrender.com/senduser';
+                
+                // Make a GET request using the Fetch API
+                const response = await fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                // Check if the response is successful
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+
+                // Parse the JSON data from the response
+                userData = await response.json();
+
+                // Log or process the fetched data
+                // console.log(userData);
+
+                // Update profile URL after fetching userData
+                var profile_id = document.querySelector("#profile_id");
+                var adminurl = `https://greenerygrove.onrender.com/profile/${userData._id}`;
+                profile_id.setAttribute('href', adminurl);
+
+            } catch (error) {
+                // Alert the error if something goes wrong
+                alert('Error: ' + error.message);
+            }
+        }
+
+        // Fetch all data on DOM content loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch_user_data(); // First, fetch user data
+
+            // Delay fetching all data by 5 seconds to ensure userData is populated
+            setTimeout(fetch_all_data, 5000); // 5000 ms = 5 seconds
+        });
+    </script>
+</body>
+</html>

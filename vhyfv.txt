@@ -1,0 +1,625 @@
+<div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	 <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-25%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+        <span class="discount">-4%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+        <span class="discount">-20%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <!-- extra -->
+    <div class="box">
+        <span class="discount">-10%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-10%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	<div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	<div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+	<div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+    <div class="box">
+        <span class="discount">-13%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+<div class="box"><!--Same class repeated 8 -->
+        <span class="discount">-10%</span>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+        <img src="./assets/fit2.jpg" alt="">
+        <h3>Latest Plants</h3>
+        <div class="stars">                            <!-- Rating -->
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+        </div>
+        <div class="quantity">
+            <span> Quantity : </span>
+            <input type="number" min="1" max="5" value="1"><!-- Quantity of Plants -->
+        </div>
+        <div class="price">₹14.70 <span> ₹18.20</span></div>
+        <a href="#" class="btn">add to cart</a>
+    </div>

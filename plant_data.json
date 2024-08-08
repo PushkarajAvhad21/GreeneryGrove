@@ -1,0 +1,201 @@
+[
+  {
+      "name": "Monstera Borsigiana",
+      "url":"https://m.media-amazon.com/images/I/41mbe1AornL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 25.99,
+      "description": "A popular houseplant known for its unique fenestrated leaves.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Plastic Pot",
+          "plant": "Monstera Borsigiana Cutting"
+      },
+      "quickFacts": {
+          "knownAs": "Swiss Cheese Plant",
+          "growingDifficulty": "Easy",
+          "light": "Indirect sunlight",
+          "water": "Regular, allow top inch of soil to dry before watering",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Snake Plant - Golden Hahnii",
+      "url":"https://img.freepik.com/free-photo/snake-plant-terracotta-pot-home-decor_53876-133123.jpg?w=360&t=st=1698384304~exp=1698384904~hmac=c06f48f92a9a9b23a85a954e4f57226bcd97536bac6357633de4f1fe01c57e74",
+      "price": 15.99,
+      "description": "The Snake Plant Golden Hahnii is a compact, low-maintenance succulent known for its striking variegated leaves.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Terracotta Pot",
+          "plant": "Snake Plant - Golden Hahnii"
+      },
+      "quickFacts": {
+          "knownAs": "Golden Hahnii",
+          "growingDifficulty": "Easy",
+          "light": "Low to bright indirect light",
+          "water": "Allow soil to dry between waterings",
+          "airPurifying": "Yes"
+      }
+  },
+  
+  {
+      "name": "Bird of Paradise (Strelitzia Reginae)",
+      "url":"https://img.freepik.com/free-vector/strelitzia-reginae-flowerpot_107791-105.jpg?1&w=360&t=st=1698384241~exp=1698384841~hmac=d353b55d8c0f05af52c24da1f18b644cc8298b5be13d4e15cfa02e53e6304ac4",
+      "price": 24.99,
+      "description": "The Bird of Paradise, also known as Strelitzia Reginae, is a striking tropical plant with large, banana-like leaves.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Modern Planter",
+          "plant": "Bird of Paradise (Strelitzia Reginae)"
+      },
+      "quickFacts": {
+          "knownAs": "Bird of Paradise",
+          "growingDifficulty": "Intermediate",
+          "light": "Bright indirect light",
+          "water": "Allow top inch of soil to dry before watering",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Peperomia Obtusifolia (Baby Rubberplant)",
+      "url":"https://m.media-amazon.com/images/I/41KhFT0BmBL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 9.99,
+      "description": "The Peperomia Obtusifolia, also known as the Baby Rubberplant, is a compact, easy-to-care-for houseplant.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Classic Terracotta Pot",
+          "plant": "Peperomia Obtusifolia (Baby Rubberplant)"
+      },
+      "quickFacts": {
+          "knownAs": "Baby Rubberplant",
+          "growingDifficulty": "Easy",
+          "light": "Low to medium light",
+          "water": "Allow top inch of soil to dry before watering",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Caladium Bicolor New Wave",
+      "url":"https://peppyflora.com/wp-content/uploads/2021/11/Caladium-Bicolor-New-Wave-3x4-Product-Peppyflora-01-b-Moz.jpg",
+      "price": 12.99,
+      "description": "Caladium Bicolor New Wave is a tropical plant known for its vibrant and colorful heart-shaped leaves.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Decorative Ceramic Pot",
+          "plant": "Caladium Bicolor New Wave"
+      },
+      "quickFacts": {
+          "knownAs": "Caladium",
+          "growingDifficulty": "Intermediate",
+          "light": "Indirect sunlight",
+          "water": "Regular, keep soil consistently moist",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Yucca Silver Star",
+      "url":"https://houseofsilkflowers.com/cdn/shop/products/hf0738-crmA_540x.jpg?v=1596825933",
+      "price": 34.99,
+      "description": "The Yucca Silver Star is an elegant succulent known for its striking silvery-green leaves.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Modern Ceramic Pot",
+          "plant": "Yucca Silver Star"
+      },
+      "quickFacts": {
+          "knownAs": "Yucca Silver Star",
+          "growingDifficulty": "Easy",
+          "light": "Bright indirect light",
+          "water": "Allow top inch of soil to dry before watering",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Tree Fern",
+      "url":"https://www.plantsguru.com/image/cache/fern-flowers/pg-tree-fern-800x800.jpg",
+      "price": 29.99,
+      "description": "The Tree Fern is a beautiful fern species known for its delicate fronds and graceful appearance.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Natural Fiber Basket",
+          "plant": "Tree Fern"
+      },
+      "quickFacts": {
+          "knownAs": "Tree Fern",
+          "growingDifficulty": "Intermediate",
+          "light": "Indirect sunlight",
+          "water": "Keep soil consistently moist",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Spathiphyllum ‘Peace Lily’",
+      "url":"https://seed2plant.in/cdn/shop/files/SPR-variegated-peace-lily-domino-7097188-hero-A-422d7faa152d42d3a4030ff8a2a33768_800x.jpg?v=1692362762",
+      "price": 19.99,
+      "description": "The Peace Lily is a popular indoor plant with glossy, dark green leaves and elegant white flowers.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Classic White Pot",
+          "plant": "Spathiphyllum ‘Peace Lily’"
+      },
+      "quickFacts": {
+          "knownAs": "Peace Lily",
+          "growingDifficulty": "Easy",
+          "light": "Low to medium light",
+          "water": "Keep soil consistently moist",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Guzmania conifera",
+      "url":"https://tohgarden.com/wp-content/uploads/2023/01/Guzmania-conifera-in-Black-Ceramic-3-in-1.jpg.webp",
+      "price": 17.99,
+      "description": "Guzmania conifera is a vibrant bromeliad species known for its colorful and long-lasting flower bracts.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Colorful Ceramic Pot",
+          "plant": "Guzmania conifera"
+      },
+      "quickFacts": {
+          "knownAs": "Guzmania conifera",
+          "growingDifficulty": "Easy",
+          "light": "Bright indirect light",
+          "water": "Keep central cup filled, water soil sparingly",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Flowering Anthurium Red",
+      "url":"https://img.freepik.com/free-photo/red-anthurium-plant-gray-pot_53876-134279.jpg?w=360&t=st=1698384169~exp=1698384769~hmac=71088d11a4a6b88d5e234cd491785cba498044e4c32eda00ef951c7a3430e9b5",
+      "price": 22.99,
+      "description": "The Flowering Anthurium Red is a stunning tropical plant with glossy, heart-shaped leaves and vibrant red flowers.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Elegant Ceramic Pot",
+          "plant": "Flowering Anthurium Red"
+      },
+      "quickFacts": {
+          "knownAs": "Flowering Anthurium Red",
+          "growingDifficulty": "Intermediate",
+          "light": "Indirect sunlight",
+          "water": "Allow top inch of soil to dry before watering",
+          "airPurifying": "Yes"
+      }
+  },
+  {
+      "name": "Calathea Roseopicta Dottie",
+      "url":"https://dukaan.b-cdn.net/700x700/webp/730950/570a0a01-8039-4174-b518-9bf54edfe5fb/calathea-dottie-plant-online-2ff24e90-a255-415a-881f-7aea5a7025ee.png",
+      "price": 14.99,
+      "description": "The Calathea Roseopicta Dottie is a stunning foliage plant with deep purple-black leaves and pink stripes.",
+      "stock": "",
+      "whatYouGet": {
+          "pot": "Artistic Clay Pot",
+          "plant": "Calathea Roseopicta Dottie"
+      },
+      "quickFacts": {
+          "knownAs": "Calathea Dottie",
+          "growingDifficulty": "Intermediate",
+          "light": "Low to medium light",
+          "water": "Keep soil consistently moist",
+          "airPurifying": "Yes"
+      }
+  }
+]
